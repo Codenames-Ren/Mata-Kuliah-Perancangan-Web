@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>latihan4</title>
+  </head>
+  <body>
+    <h1>Menggunakan Gambar Dalam HTML</h1>
+
+    <h3>1. Memasang Gambar Pada Halaman</h3>
+    <img src="assets/image/logo.png" alt="logo" height="200px" />
+
+    <h3>2. Format Gambar yang Didukung</h3>
+    <ul>
+      <li>APNG - Animated Portable Network Graphics</li>
+      <li>ICO - Microsoft Icon (.ico , .cur)</li>
+      <li>JPEG - Untuk foto dan gambar kompleks</li>
+      <li>PNG - Untuk transparansi dan kualitas tinggi</li>
+      <li>GIF - Untuk animasi sederhana</li>
+      <li>SVG - Untuk Grafis Vektor</li>
+      <li>WebP - Format modern dengan kompresi baik</li>
+    </ul>
+
+    <h3>3. Mengambil File dari Hard Disk</h3>
+    <img src="assets/image/Americano.png" alt="Americano" height="250px" />
+
+    <h3>4. Menyisipkan Gambar dalam Paragraf</h3>
+    <p>
+      <img src="assets/image/overlay_bg.gif" alt="Latte" height="150px" /> Ini
+      adalah contoh gambar yang disisipkan dalam Paragraf. Gambar ini adalah
+      gambar Gif.
+    </p>
+
+    <h3>5. Image Map</h3>
+    <img src="assets/image/Map.jpeg" alt="Map" width="700px" usemap="#map" />
+
+    <map name="map">
+      <area
+        shape="rect"
+        coords="158,163,254,266"
+        href="banten.html"
+        alt="Banten"
+      />
+      <area
+        shape="rect"
+        coords="178,193,260,274"
+        href="dki_jakarta.html"
+        alt="DKI JAKARTA"
+      />
+      <area
+        shape="rect"
+        coords="201,233,272,276"
+        href="jateng.html"
+        alt="Jawa Tengah"
+      />
+    </map>
+
+    <h3>6. Membuat Link pada Gambar</h3>
+    <a href="https://global.ac.id" target="_blank"
+      ><img src="/assets/image/Espresso.png" alt="Espresso" height="200px"
+    /></a>
+
+    <h3>7. Gambar Sebagai Link</h3>
+    <img
+      src="https://global.ac.id/wp-content/uploads/2022/11/logo-header-global-institute-3.png"
+      alt="Global"
+      height="100px"
+    />
+
+    <h3>8. Auto Thumbnails</h3>
+    <a href="/assets/image/header-bg.png" target="_blank">
+      <img src="assets/image/header-bg.png" alt="BG" height="200px" />
+    </a>
+
+    <h3>9. Dengan Style</h3>
+    <p>
+      <img
+        src="assets/image/cappuccino.jpg"
+        alt="cappuccino"
+        style="border: 4px solid rgb(13, 0, 255); height: 200px"
+      />
+      <img
+        src="assets/image/cappuccino.jpg"
+        alt="cappuccino"
+        style="border-radius: 5%; height: 150px"
+      />
+      <img
+        src="assets/image/cappuccino.jpg"
+        alt="cappuccino"
+        style="border-radius: 50%; height: 100px"
+      />
+    </p>
+
+    <h3>10. Dengan Berbagai Bentuk</h3>
+    <p>
+      <h4>1. Lingkaran</h4>
+      <img src="assets/image/macchiato.jpg" alt="Macchiato" style="border: 3px solid darkblue; height: 200px; border-radius: 50%;">
+      <h4>2. Sudut Melengkung</h4>
+      <img src="assets/image/macchiato.jpg" alt="Macchiato" style="height: 200px; border-radius: 10%;">
+      <h4>3. Belah Ketupat</h4>
+      <img src="assets/image/macchiato.jpg" alt="Macchiato" style="width: 200px; height: 200px; object-fit: cover; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);">
+    </p>
+  </body>
+</html>
